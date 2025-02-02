@@ -1,0 +1,124 @@
+body{
+    display: flex;
+    border: 1px solid black;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(182, 211, 244);
+    /* width: 750px; */
+    height: 100vh;
+    color: midnightblue;
+    text-align: justify;
+    cursor: pointer;
+}
+.main{
+    border: 1px solid black;
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    text-indent: 30px;
+    
+}
+.side-view{
+    border:1px solid black;
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    border: none;
+    background-image: url(../image/rh.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h4 {
+    color: rgb(78, 77, 75);
+}
+input {
+    width: 350px;
+    height: 30px; 
+    border:1px solid black ;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+
+
+label {
+    text-indent: 30px;
+    padding: 0;
+    margin-bottom: 50px;
+    width: 300px;
+
+}
+button {
+    background-color: rgb(11, 11, 60);
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+  
+}
+fieldset {
+    width: 10px;
+    height: 80px;
+    text-align: end;
+
+}
+.pull{
+    display: flex;
+}
+p {
+    margin-bottom: auto;
+    padding: auto;
+text-indent: 50px;
+}
+img {
+    width: 20px;
+    height: auto;
+    align-items: end;
+}
+fieldset.set {
+    text-indent: 0px;
+    width: 300px;
+    text-align: left;
+    justify-content: space-between;
+    margin: 5px 0;
+    border-radius: 5px;
+    padding: 30px;
+    height: 35px;
+}
+input.set {
+    width: 10px;
+    align-items: left;
+    margin-right: 10px;
+}
+div .last-page {
+    border: 1px solid black;
+    background-color: rgb(222, 239, 247);
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+h6 {
+    color: rgb(102, 100, 100);
+}
+span {
+    text-indent: 300px;
+}
+img .last {
+    width: 300px;
+    align-items: center;
+    height: auto;
+    margin: auto;
+    padding: auto;
+
+}
+div #waha {
+    text-align: center;
+}
