@@ -4,11 +4,12 @@ body{
     border: none;
     border-radius: 10px;
     background-color: rgb(182, 211, 244);
-    /* width: 750px; */
+    width: 750px;
     height: 100vh;
     color: midnightblue;
     text-align: justify;
     cursor: pointer;
+    margin: auto;
 }
 .main{
     border: 1px solid black;
@@ -22,13 +23,14 @@ body{
 }
 .side-view{
     border:1px solid black;
-    width: 350px;
+    width: 400px;
     height: 500px;
     border-radius: 10px;
     border: none;
     background-image: url(../image/rh.svg);
     background-repeat: no-repeat;
     background-position: center;
+    /* text-align:center; */
 }
 h4 {
     color: rgb(78, 77, 75);
@@ -111,14 +113,30 @@ h6 {
 span {
     text-indent: 300px;
 }
-img .last {
-    width: 300px;
-    align-items: center;
-    height: auto;
-    margin: auto;
-    padding: auto;
+#last {
+    width: 150px;
+    /* align-items: center; */
+    /* height: auto; */
+    margin-left:200px ;
+    /* padding: au; */
+    /* margin-top: 150px; */
 
 }
-div #waha {
+#waha {
     text-align: center;
+    height: 500px;
+    text-indent: 10px;
+    background-color: white;
+    /* margin-top: 60px; */
+    width: 800px;
+}
+.last {
+    margin-left:70px;
+    padding-top: 80px;
+    width: 150px;
+}
+.b {
+    margin: 50px;
+    text-align: center;
+    text-indent: 50px;
 }
